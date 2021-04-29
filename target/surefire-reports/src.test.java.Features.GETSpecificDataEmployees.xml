@@ -1,0 +1,19 @@
+<testsuite failures="1" name="src/test/java/Features/GETSpecificDataEmployees.feature" skipped="0" tests="1" time="0.98316">
+  <testcase classname="src.test.java.Features.GETSpecificDataEmployees" name="To GET a data for specific employee" time="0.98316">
+    <failure message="GETSpecificDataEmployees.feature:17 - evaluation (js) failed: response.data.employee_name == employeeName, javax.script.ScriptException: TypeError: Cannot read property &quot;employee_name&quot; from undefined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)">* def employeeID = "1" .................................................... passed
+* def employeeName = "Tiger Nixon" ........................................ passed
+Given url "http://dummy.restapiexample.com/" .............................. passed
+And path "api/v1/employee/" + employeeID .................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And response.status == "success" .......................................... passed
+And print response.data.employee_name ..................................... passed
+And response.data.employee_name == employeeName ........................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GETSpecificDataEmployees.feature:17 - evaluation (js) failed: response.data.employee_name == employeeName, javax.script.ScriptException: TypeError: Cannot read property "employee_name" from undefined in &lt;eval&gt; at line number 1
+stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)&#13;
+	at ✽.And response.data.employee_name == employeeName (GETSpecificDataEmployees.feature:17)</failure>
+  </testcase>
+</testsuite>

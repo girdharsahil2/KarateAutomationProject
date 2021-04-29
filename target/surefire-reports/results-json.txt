@@ -1,0 +1,1 @@
+{"features":1,"ignored":0,"efficiency":0.04920332056194125,"failures":{"src.test.java.Features.CreateUserRequest":"CreateUserRequest.feature:12 - net.minidev.json.parser.ParseException: Unexpected End Of File position 196: null"},"totalTime":38.5262,"threads":1,"scenarios":1,"failed":1,"passed":0,"version":"0.9.6","elapsedTime":783.0}

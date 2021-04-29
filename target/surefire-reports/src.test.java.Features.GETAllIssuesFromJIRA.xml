@@ -1,0 +1,9 @@
+<testsuite failures="1" name="src/test/java/Features/GETAllIssuesFromJIRA.feature" skipped="0" tests="1" time="0">
+  <testcase classname="src.test.java.Features.GETAllIssuesFromJIRA" name="to GET all the details of the issues from JIRA" time="0">
+    <failure message="GETAllIssuesFromJIRA.feature:3 - failed to construct class by name: karate-http.properties not found, aborting">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GETAllIssuesFromJIRA.feature:3 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (GETAllIssuesFromJIRA.feature:3)</failure>
+  </testcase>
+</testsuite>

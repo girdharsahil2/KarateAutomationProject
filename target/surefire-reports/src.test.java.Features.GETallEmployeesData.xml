@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/Features/GETallEmployeesData.feature" skipped="0" tests="1" time="0.735278">
+  <testcase classname="src.test.java.Features.GETallEmployeesData" name="To GET data of all employees" time="0.735278">
+    <system-out>Given url "http://dummy.restapiexample.com/" .............................. passed
+And path "api/v1/employees" ............................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+And match response.status == "success" .................................... passed</system-out>
+  </testcase>
+</testsuite>
